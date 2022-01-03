@@ -1,0 +1,813 @@
+/* common css start */
+body{
+
+
+
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+
+
+}
+
+/* common css end */
+
+
+
+/* header start */
+
+header{
+
+	/*border: 1px solid green;*/
+  	padding: 20px 0 95px;
+
+
+
+  }
+
+
+ .top{
+
+
+
+  }
+
+
+.container {
+
+	/*border:1px solid ;*/
+
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	padding-bottom: 50px;
+
+
+}
+
+.logo {
+    /* border: 1px solid; */
+    width: 15%;
+    margin-top: 20px;
+    float: left;
+	
+
+
+}
+
+
+.logo img{
+
+	width:100%;
+	
+
+
+
+}
+
+.menu {
+
+	/*border: 1px solid red; */
+    width: 80%;
+    float: right;
+	
+
+}
+
+
+.menu ul{
+	float: right;
+
+
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+	border-right: 1px solid #999797;
+
+}
+
+
+.menu ul:last-child li{
+
+
+
+
+}
+
+
+.menu ul li a{
+
+    padding: 15px 6px;
+    margin: 0px 13px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #999797 ;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: 0.15s;
+}
+
+
+.menu ul li a:hover{
+
+		color: #ff1f1f;
+
+}
+
+
+.menu ul li:last-child a{
+
+	margin-right: 0;
+	 border-right: none;
+
+}
+
+.menu ul button{
+	     
+    padding: 13px 15px;
+    background-color: white;
+    border-color: #db2850;
+}
+
+
+.menu ul button a{
+
+	color: #fb113d;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: 0.15s;
+}
+
+.menu ul button a:hover{
+
+    color: #999797 ;
+
+}
+
+
+.bottom{
+
+	background-color:#3E3E3E;
+
+}
+.container2{
+
+
+	/*border:1px solid ;*/
+
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+
+}
+
+
+.menu2 {
+
+	/*border:1px solid  red;*/
+
+	width: 50%;
+	/*float:left ;*/
+	
+
+}
+.menu2 ul{
+
+
+	/* float: right; */
+    padding-left: 0;
+    margin: 0;
+
+}
+
+.menu2 ul li{
+	 list-style: none;
+    float: left;
+    padding: 15px 0px;
+    background-color: transparent;
+    transition: 0.15s;
+
+
+}
+
+
+.menu2 ul li a{
+
+    border-bottom: 2px solid transparent;
+    padding: 15px 4px;
+    margin: -13px 22px;
+    font-size: 16px;
+    color: #ffff;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.15s;
+    text-transform: uppercase;
+
+}
+
+.menu2 ul li a:hover{
+
+	background-color: black;
+	border-bottom: 2px solid red;
+
+}
+
+.menu2 ul li:first-child a{
+
+	margin-left: 0;
+
+}
+
+
+.time{
+
+	width: 30%;
+	float: right;
+}
+
+.time input{
+
+	margin: 15px 15px;
+
+
+
+
+
+}
+
+
+ /*header end*/
+
+
+ /* login start */
+
+.login_form {
+
+
+
+}
+
+.container {
+
+
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+
+
+
+}
+
+
+
+.l_content {
+
+	width: 40%;
+	float: left;
+
+
+
+}
+
+
+.f_head {
+
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+
+}
+
+
+.email{
+
+	margin-bottom: 25px;
+
+
+}
+
+
+.email label{
+
+
+	font-weight: 700;
+	font-size: 18px;
+
+}
+
+.email input {
+
+	border: 1px solid lightgray;
+	padding: 15px 0;
+	margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+
+.pass {
+	padding-top: 25px;
+
+	margin-bottom: 25px;
+}
+
+
+.pass label{
+	font-weight: 700;
+	font-size: 18px;
+
+}
+
+
+.pass input{
+
+	margin-top: 5px;
+    width: 100%;
+	padding: 15px 0;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+    color: #77797D;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+   
+  
+}
+
+
+.b_login{
+
+
+
+}
+
+
+.b_login button{
+
+    
+    font-size: 22px;
+    padding: 10px 40px;
+    cursor: pointer;
+
+}
+
+.b_login button:hover{
+
+		background-color:#D53794;
+
+
+}
+
+
+.b_login button a{
+
+
+    font-size: 18px;
+    color: #D53794;
+    text-decoration: none;
+    font-weight: normal;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+
+.b_login button a:hover{
+
+	color: white ;
+
+}
+
+
+
+.bt1{
+
+
+
+}
+
+.bt1 button{
+
+
+	font-size: 22px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.bt1 button:hover{
+
+	background-color:#F0AD4E;
+
+}
+
+
+
+.bt1 button a{
+
+    font-size: 18px;
+    color: #F0AD4E;
+    text-decoration: none;
+    font-weight: normal;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+
+.bt1 button a:hover{
+
+	color: white ;
+
+}
+
+
+.r_content {
+
+	width: 40%;
+	float: right;
+
+}
+
+
+h4{
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+
+
+
+}
+
+
+.ins {
+	padding-bottom: 25px;
+
+
+}
+
+
+.ins ul {
+
+	list-style-type: circle;
+    margin: 33px 0px 0px 0px;
+    padding: 0px;
+
+}
+
+
+
+.ins ul li{
+
+	 padding: 5px 0px;
+    border-top: solid 1px #ebebeb;
+
+}
+
+
+.ins ul li a {
+
+	 color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 30px;		
+
+}
+
+
+.bt2{
+
+
+
+}
+
+
+.bt2 button{
+
+	background-color: #1D7BCE;
+    border: transparent;
+  
+    padding: 22px 40px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+.bt2 button:hover{
+
+	border: 1px solid red;
+
+}
+
+
+
+.bt2 button a{
+
+    font-size: 25px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: normal;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+
+.bt2 button a:hover{
+
+	color: white ;
+
+}
+
+/* login end */
+
+.tr{
+
+	border-radius: 15px;
+	padding: 5px 25px;
+	background-color: #FCF8E3;
+
+
+
+
+}
+
+
+.h_title{
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+
+
+
+}
+
+
+.tr p{
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+
+
+}
+
+
+.tr p span{
+
+
+	color: #D53794;
+
+	
+}
+
+
+.tr p span:hover{
+
+	color:black;
+
+
+}
+
+/* trouble end */
+
+
+
+ /* service start */
+
+.service{
+
+	/*border: 1px solid green;*/
+
+	background-color: #2B2B2B;
+	padding: 50px 0;
+
+
+}
+
+.container4{
+
+	/*border: 1px solid yellow;*/
+
+	 
+	margin:0 auto;
+	width: 90%;
+	overflow: hidden;
+
+}
+
+
+
+.sr_content{
+
+	/*border: 1px solid black;*/
+
+	overflow: hidden;
+
+}
+
+
+.single{
+
+    width: 17%;
+    margin-left: 1.5%;
+    padding: 20px 0%;
+    float: left;
+    text-align: center;
+}
+
+
+
+.sr_img {
+
+	
+
+}
+
+.sr_img img{
+     height: 81px;
+    width: 90px;
+    margin: 20px 8px;
+
+
+}
+
+
+.sr_name{
+	text-align: center;
+
+   margin: 22px 0;
+
+}
+
+
+.sr_name h3{
+
+	/* border: 1px solid; */
+
+
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: justify;
+    border-bottom: 2px solid #252323;
+    padding-bottom: 18px;
+
+}
+
+
+
+.sr_name ul {
+	
+	text-align: justify;
+    margin-left: -40px;
+
+}
+
+
+.sr_name ul li {
+	list-style: none;
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #999797;
+ 
+   
+}
+
+/* service end */
+
+
+
+/* footer start */
+
+
+footer{
+
+	background-color: #161616;
+
+}
+
+
+.container5{
+
+	/*border:1px solid ;*/
+
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*padding-bottom: 50px;*/
+
+
+
+
+}
+
+
+.f_copy{
+
+
+     /* border: 1px solid orange; */
+    width: 30%;
+    float: left;
+    /* margin: 0 5%; */
+    margin: 10px 0px;
+
+
+}
+
+
+
+.f_copy p{
+
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+
+
+
+
+
+}
+
+
+
+.f_logo{
+
+	/*border:1px solid green;*/
+
+
+
+	width: 20%;
+	float: right;
+
+
+
+}
+
+
+.f_logo ul{
+
+	
+
+	float: right;
+
+
+
+
+}
+
+
+.f_logo ul li{
+
+    list-style: none;
+    float: left;
+    margin: 10px;
+
+
+
+}
+
+
+
+
+.f_logo ul li a{
+
+	margin: 0 10px;
+
+	display: inline-block;
+	text-decoration: none;
+
+
+
+}
+	
+.f_logo ul li:last-child a{
+
+
+margin-right: 0;
+
+
+}
+
+
+/* footer end */
+
+
